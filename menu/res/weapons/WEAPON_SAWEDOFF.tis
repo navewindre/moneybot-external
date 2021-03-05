@@ -1,0 +1,26 @@
+namespace WEAPON_SAWEDOFF {
+	const Forest_DDPAT = 5;
+	const Urban_DDPAT = 17;
+	const Snake_Camo = 30;
+	const Copper = 41;
+	const Orange_DDPAT = 83;
+	const Pink_DDPAT = 84;
+	const Sage_Spray = 119;
+	const Irradiated_Alert = 171;
+	const Jungle_DDPAT = 202;
+	const Rust_Coat = 203;
+	const Mosaico = 204;
+	const Amber_Fade = 246;
+	const Full_Stop = 250;
+	const The_Kraken = 256;
+	const First_Class = 345;
+	const Highwayman = 390;
+	const Serenity = 405;
+	const Origami = 434;
+	const Bamboo_Shadow = 458;
+	const Yorick = 517;
+	const Fubar = 552;
+	const Limelight = 596;
+	const Wasteland_Princess = 638;
+	const Zander = 655;
+}

@@ -1,0 +1,21 @@
+namespace WEAPON_AUG {
+	const Bengal_Tiger = 9;
+	const Copperhead = 10;
+	const Hot_Rod = 33;
+	const Contractor = 46;
+	const Colony = 47;
+	const Wings = 73;
+	const Storm = 100;
+	const Condemned = 110;
+	const Anodized_Navy = 197;
+	const Chameleon = 280;
+	const Torque = 305;
+	const Radiation_Hazard = 375;
+	const Daedalus = 444;
+	const 	Hot_Rod = 445;
+	const Akihabara_Accept = 455;
+	const Ricochet = 507;
+	const Fleet_Flock = 541;
+	const Aristocrat = 583;
+	const Syd_Mead = 601;
+}

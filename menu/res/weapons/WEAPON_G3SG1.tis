@@ -1,0 +1,25 @@
+namespace WEAPON_G3SG1 {
+	const Arctic_Camo = 6;
+	const Desert_Storm = 8;
+	const Contractor = 46;
+	const Safari_Mesh = 72;
+	const Polar_Camo = 74;
+	const Jungle_Dashed = 147;
+	const Demeter = 195;
+	const Azure_Zebra = 229;
+	const VariCamo = 235;
+	const Night_Ops = 236;
+	const Urban_Rubble = 237;
+	const VariCamo_Blue = 238;
+	const CaliCamo = 240;
+	const Full_Stop = 250;
+	const Green_Apple = 294;
+	const Murky = 382;
+	const Chronos = 438;
+	const Orange_Kimono = 465;
+	const Flux = 493;
+	const The_Executioner = 511;
+	const Orange_Crash = 545;
+	const Ventilator = 606;
+	const Stinger = 628;
+}

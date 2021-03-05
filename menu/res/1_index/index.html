@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html window-frame="transparent">
+
+<head>
+    <meta charset="UTF-8">
+    <title>femboy hack</title>
+
+
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    <script type="text/javascript" src="main.js"></script>
+    <style>
+        body.shown {
+            transform: scale(1);
+        }
+
+    </style>
+
+    <script type="text/tiscript">
+    
+      function MySlider() {
+        var button = this.$(button);
+        this.paintContent = function(gfx)
+        {
+          var (x1,y1,x2,y2) = button.box(#rect,#border,#parent);
+          var (w,h) = this.box(#dimension,#inner);
+          gfx.fillColor( button.style["border-left-color"] )
+             .rectangle(0,0,(x1+x2)/2,h);
+        }
+    }
+    
+    </script>
+    <script type="text/tiscript">
+    event change $(form#index) {
+      // 'this' here is the form so:
+      view.onDataChange_index(this.value);
+    }
+    </script>
+
+    <script type="text/tiscript">
+    const body = $(body);
+    include "../timeline.tis";
+    function self.ready() {
+        var titlemap = view.gettitlemap();
+	    $(form#title).value = titlemap;
+        body.attributes.addClass("shown");
+        //$(span#platform).text = System.PLATFORM;
+        //$(span#arch).text = view.architecture();
+        Timeline.on(body)
+         .from( self, { duration:0.4s, ease: #quadInOut },
+                              { opacity: 0.1 } )
+         .from( $$(#scene), { duration:0.6s, ease: #quadInOut },
+                              { opacity: 0.1 } )
+         .play();
+    }
+    </script>
+	
+	    <script type="text/tiscript">
+        const body = $(body);
+    
+
+    $(#close).on("click",function()
+  {
+    
+    body.attributes.removeClass("shown");
+    view.close();
+  });
+    </script>
+    
+    <script type="text/tiscript">
+        const body = $(body);
+    
+
+    $(#save).on("click",function()
+  {
+    
+    view.saves();
+  });
+    </script>
+    <script type="text/tiscript">
+        const body = $(body);
+    
+
+    $(#load).on("click",function()
+  {
+    
+    view.loads();
+  });
+    </script>
+</head>
+
+<body>
+    <div class="side" #scene>
+
+        <center>
+            <richtext><h1 style="color:white">커피</h1></richtext>
+        </center><br>
+        <center>
+		<form#title>
+            <article style="color:white">morning pleasure</article>
+			<article(username) style="color:white">welcome back, user</article>
+		</form>
+        </center>
+        <hr class="dick">
+        <div class="sidenav">
+            <a href="../2_aim/aim.html">aim</a>
+            <a href="../3_visuals/visuals.html">visuals</a>
+            <a href="../4_misc/misc.html">misc</a>
+            <a href="../5_settings/settings.html">skinchanger</a>
+            <a #close>close</a>
+			<br><br><br><!--that will do!-->
+            <a class="bottom" #save>save</a>
+            <a class="bottom" #load>load</a>
+        </div>
+    </div>
+    <div class="fuckingdivthatwontwork" #scene></div>
+	 <div class="main" role="window-caption" #scene>
+<div class="formmain">
+    <h1 class="formtitle">changelog</h1>
+    <hr class="formline">
+	20.10.2017:<br><br>
+	- fixes for the dust2 update<br>
+	- WIP skinchanger<br>
+	- minor aimbot smoothing improvements<br>
+	- added a separate toggle for glow<br>
+	<br>
+	24.09.2017:<br><br>
+	- aimbot: will aim at body with an awp<br>
+	- added menu animations<br>
+	- button picker hotfix ( should work with m4/m5 now )<br>
+	<br>
+	22.09.2017:<br><br>
+	- added a slider to change the strength of dynamic smoothing<br>
+	- added key pickers for triggerkey/visuals<br>
+	- added a visuals toggle<br>
+	- added radarhack<br>
+	- minor imporvements to aimbot<br>
+	</div>
+	</hr>
+	</div>
+</body>
+
+
+</html>

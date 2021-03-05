@@ -1,0 +1,21 @@
+namespace WEAPON_UMP45 {
+	const Gunsmoke = 15;
+	const Urban_DDPAT = 17;
+	const Blaze = 37;
+	const Carbon_Fiber = 70;
+	const Caramel = 93;
+	const Fallout_Warning = 169;
+	const Scorched = 175;
+	const Bone_Pile = 193;
+	const Corporal = 281;
+	const Indigo = 333;
+	const Labyrinth = 362;
+	const Delusion = 392;
+	const Grand_Prix = 436;
+	const Minotaurs_Labyrinth = 441;
+	const Riot = 488;
+	const Primal_Saber = 556;
+	const Briefing = 615;
+	const Scaffold = 652;
+	const Metal_Flowers = 672;
+}

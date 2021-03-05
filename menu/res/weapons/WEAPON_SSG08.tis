@@ -1,0 +1,18 @@
+namespace WEAPON_SSG08 {
+	const Lichen_Dashed = 26;
+	const Dark_Water = 60;
+	const Blue_Spruce = 96;
+	const Sand_Dune = 99;
+	const Mayan_Dreams = 200;
+	const Blood_in_the_Water = 222;
+	const Tropical_Storm = 233;
+	const Acid_Fade = 253;
+	const Slashed = 304;
+	const Detour = 319;
+	const Abyss = 361;
+	const Big_Iron = 503;
+	const Necropos = 538;
+	const Ghost_Crusader = 554;
+	const Dragonfire = 624;
+	const Deaths_Head = 670;
+}

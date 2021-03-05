@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>big hack</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Source Code Pro' rel='stylesheet'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" type="text/css" href="../main.css">
+
+    <style>
+        body.shown {
+            transform: scale(1);
+        }
+
+    </style>
+
+    <script type="text/tiscript">
+      //view.onDataChange_index(this.value);
+      //var visualsmap = view.getvisualsmap();
+      //$(form#visuals).value = visualsmap;
+      
+      
+       event keyup (evt) {
+        var s = evt.keyCode;
+        var ss = String.fromCharCode( evt.keyCode );
+        //view.msgbox(s, ss);
+        view.glowkey(s);
+        view.load( self.url("visuals.html"));
+       }
+    
+       
+    </script>
+
+</head>
+
+<body>
+
+<h6 style="position: absolute; left: 42.5%;  top: 35%; ">press any key</h6>
+
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+namespace WEAPON_R8Revolver {
+	const Crimson_Web = 12;
+	const Bone_Mask = 27;
+	const Urban_Perforated = 135;
+	const Waves_Perforated = 136;
+	const Orange_Peel = 141;
+	const Urban_Masked = 143;
+	const Jungle_Dashed = 147;
+	const Sand_Dashed = 148;
+	const Urban_Dashed = 149;
+	const Dry_Season = 199;
+	const Fade = 522;
+	const Amber_Fade = 523;
+	const Reboot = 595;
+}

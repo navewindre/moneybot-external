@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>big hack</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Source Code Pro' rel='stylesheet'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" type="text/css" href="../main.css">
+
+    <style>
+        body.shown {
+            transform: scale(1);
+        }
+
+    </style>
+
+    <script type="text/tiscript">
+      //view.onDataChange_index(this.value);
+      //var visualsmap = view.getvisualsmap();
+      //$(form#visuals).value = visualsmap;
+      
+      
+       event keyup (evt) {
+        var s = evt.keyCode;
+        var ss = String.fromCharCode( evt.keyCode );
+        //view.msgbox(s, ss);
+        view.aimkeytest(s);
+        view.load( self.url("aim.html"));
+       }
+    
+       
+    </script>
+    <script type="text/tiscript">
+       event mouseup (evt) {
+        var s = evt.buttons;
+        var ss = String.fromCharCode( evt.buttons );
+        //view.msgbox(s, ss);
+        view.aimkeytest(s);
+        view.load( self.url("aim.html"));
+       }
+    </script>
+    
+    <script type="text/tiscript">
+    const XBUTTON1 = 0x0001 << 3;
+    const XBUTTON2 = 0x0002 << 3;
+    
+    event mouseup (evt) {
+        var s = evt.buttons;
+        var ss = String.fromCharCode( evt.buttons );
+        //view.msgbox(s, ss);
+        if( evt.buttons & XBUTTON1 ) var sss = evt.buttons & XBUTTON1;
+        if( evt.buttons & XBUTTON2 ) var sss = evt.buttons & XBUTTON2;
+        //view.msgbox("test", sss);
+        if( sss != 0) s = sss;
+        view.aimkeytest(s);
+        view.load( self.url("aim.html"));
+    }
+    </script>
+
+</head>
+
+<body>
+
+<h6 style="position: absolute; left: 42.5%;  top: 35%; ">press any key</h6>
+
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+namespace WEAPON_TEC9 {
+	const Groundwater = 2;
+	const Urban_DDPAT = 17;
+	const Ossified = 36;
+	const Brass = 159;
+	const Nuclear_Threat = 179;
+	const Tornado = 206;
+	const Ocean_Foam = 211;
+	const Blue_Titanium = 216;
+	const Hemoglobin = 220;
+	const VariCamo = 235;
+	const Night_Ops = 236;
+	const Urban_Rubble = 237;
+	const VariCamo_Blue = 238;
+	const CaliCamo = 240;
+	const Army_Mesh = 242;
+	const Red_Quartz = 248;
+	const Cobalt_Quartz = 249;
+	const Full_Stop = 250;
+	const Silver_Quartz = 252;
+	const Titanium_Bit = 272;
+	const Sandstorm = 289;
+	const Meteorite = 296;
+	const Isaac = 303;
+	const Toxic = 374;
+	const Hades = 439;
+	const Bamboo_Print = 457;
+	const Bamboo_Shadow = 458;
+	const Bamboo_Forest = 459;
+	const Terrace = 463;
+	const Avalanche = 520;
+	const Jambiya = 539;
+	const ReEntry = 555;
+	const Ice_Cap = 599;
+	const Fuel_Injector = 614;
+	const Cut_Out = 671;
+}

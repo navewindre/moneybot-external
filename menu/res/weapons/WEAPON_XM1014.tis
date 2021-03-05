@@ -1,0 +1,22 @@
+namespace WEAPON_XM1014 {
+	const Blue_Steel = 42;
+	const Grassland = 95;
+	const Blue_Spruce = 96;
+	const Urban_Perforated = 135;
+	const Blaze_Orange = 166;
+	const Fallout_Warning = 169;
+	const Jungle = 205;
+	const VariCamo_Blue = 238;
+	const CaliCamo = 240;
+	const Heaven_Guard = 314;
+	const Red_Python = 320;
+	const Red_Leather = 348;
+	const Bone_Machine = 370;
+	const Tranquility = 393;
+	const Quicksilver = 407;
+	const Scumbria = 505;
+	const Teclu_Burner = 521;
+	const Blconst ack_Tie = 557;
+	const Slipstream = 616;
+	const Seasons = 654;
+}

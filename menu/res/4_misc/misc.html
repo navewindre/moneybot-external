@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>femboy hack</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Source Code Pro' rel='stylesheet'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" type="text/css" href="../main.css">
+
+    <style>
+        body.shown {
+            transform: scale(1);
+        }
+
+    </style>
+    <script type="text/tiscript">
+    event change $(form#misc) {
+      view.onDataChange_misc(this.value);
+    }
+    </script>
+    <script type="text/tiscript">
+      include "../timeline.tis";
+      function self.ready()
+      {
+
+      var miscmap = view.getmiscmap();
+      $(form#misc).value = miscmap;
+	  	  var titlemap = view.gettitlemap();
+	  $(form#title).value = titlemap;
+      Timeline.on(body)
+         .from( $$(#scene), { duration:0.3s, ease: #quadInOut },
+                              { opacity: 0.1 } )
+         .play();
+      }
+    </script>
+    <script type="text/tiscript">
+    
+      function MySlider() {
+        var button = this.$(button);
+        this.paintContent = function(gfx) // using paintContent here to draw on top of background
+        {
+          var (x1,y1,x2,y2) = button.box(#rect,#border,#parent);
+          var (w,h) = this.box(#dimension,#inner);
+          gfx.fillColor( button.style["border-left-color"] )
+             .rectangle(0,0,(x1+x2)/2,h);
+        }
+      }
+    
+    </script>
+
+	    <script type="text/tiscript">
+        const body = $(body);
+    
+
+    $(#close).on("click",function()
+  {
+    
+    body.attributes.removeClass("shown");
+    view.close();
+  });
+    </script>
+    
+    <script type="text/tiscript">
+        const body = $(body);
+    
+
+    $(#save).on("click",function()
+  {
+    
+    view.saves();
+  });
+    </script>
+    <script type="text/tiscript">
+        const body = $(body);
+    
+
+    $(#load).on("click",function()
+  {
+    
+    view.loads();
+  });
+    </script>
+	
+<script type="text/tiscript">
+   $(#myButton) << event click() {
+      view.msgbox(#information, "Clicked!");
+   }
+    </script>
+</head>
+
+<body>
+    <div class="side">
+
+        <center>
+            <h1 style="color:white">커피</h1>
+        </center><br>
+        <center>
+		<form#title>
+            <article style="color:white">morning pleasure</article>
+			<article(username) style="color:white">welcome back, user</article>
+		</form>
+        </center>
+        <hr class="dick">
+        <div class="sidenav">
+            <a href="../2_aim/aim.html">aim</a>
+            <a href="../3_visuals/visuals.html">visuals</a>
+            <a href="../4_misc/misc.html">misc</a>
+            <a href="../5_settings/settings.html">skinchanger</a>
+            <a #close>close</a>
+			<br><br><br><!--that will do!-->
+            <a class="bottom" #save>save</a>
+            <a class="bottom" #load>load</a>
+        </div>
+    </div>
+    <div class="fuckingdivthatwontwork"></div>
+
+ <!--
+        <input|text value="VALUE" maxlength="30" /> 
+    <div class="select-style">
+  <select>
+    <option>One</option>
+    <option>Two</option>
+    <option>Three</option>
+    <option selected>Four</option>
+    <option>Five</option>
+    <option>Six</option>
+    <option>Seven</option>
+    <option>Eight</option>
+    <option>Nine</option>
+    <option>Ten</option>
+    <option>Eleven</option>
+    <option>Twelve</option>
+  </select>
+
+    </div>
+ <button.myButton>Test</button>
+        -->
+
+
+
+<div class="main" role="window-caption" #scene>
+        <form#misc> 
+        <div class="formmain">
+    <h1 class="formtitle">misc</h1>
+    <hr class="formline"/>
+   <button|checkbox(bhop)><text>bhop</text></button><br>
+   <button|checkbox(legitbhop)><text>legit bhop</text></button><br>
+   legitbhop max delay: <br><input|hslider(legitbhopmax) min=0 max=100 value="30" buddy="legitbhopmax"/> <b id="legitbhopmax"></b><br>
+   legitbhop min delay: <br><input|hslider(legitbhopmin) min=0 max=100 value="20" buddy="legitbhopmin"/> <b id="legitbhopmin"></b><br>
+   legitbhop random factor: <br><input|hslider(legitbhoprand) min=0 max=20 value="5" buddy="legitbhoprand"/> <b id="legitbhoprand"></b><br>
+   <button|checkbox(nohands)><text>no hands</text></button><br>
+   <button|checkbox(autoaccept)><text>autoaccept</text></button><br>
+            
+                <!--<div class="select-style">
+  <select(something)>
+    <option>One</option>
+    <option>Two</option>
+    <option>Three</option>
+    <option selected>Four</option>
+    <option>Five</option>
+    <option>Six</option>
+    <option>Seven</option>
+    <option>Eight</option>
+    <option>Nine</option>
+    <option>Ten</option>
+    <option>Eleven</option>
+    <option>Twelve</option>
+  </select>!-->
+
+    </div>
+            
+    </div>
+</form>
+            </div>
+
+</body>
+
+</html>

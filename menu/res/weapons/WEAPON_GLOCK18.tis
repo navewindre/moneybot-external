@@ -1,0 +1,28 @@
+namespace WEAPON_GLOCK18 {
+	const Groundwater = 2;
+	const Candy_Apple = 3;
+	const Fade = 38;
+	const Night = 40;
+	const Dragon_Tattoo = 48;
+	const Brass = 159;
+	const Sand_Dune = 208;
+	const Groundwater = 209;
+	const Steel_Disruption = 230;
+	const Amber_Fade = 246;
+	const Acid_Fade = 253;
+	const Blue_Fissure = 278;
+	const Death_Rattle = 293;
+	const Water_Elemental = 353;
+	const Reactor = 367;
+	const Grinder = 381;
+	const Catacombs = 399;
+	const Twilight_Galaxy = 437;
+	const Bunsen_Burner = 479;
+	const Wraiths = 495;
+	const Fade = 522;
+	const Amber_Fade = 523;
+	const Royal_Legion = 532;
+	const Wasteland_Rebel = 586;
+	const Weasel = 607;
+	const Ironwork = 623;
+}

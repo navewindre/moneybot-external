@@ -1,0 +1,13 @@
+namespace WEAPON_NEGEV {
+	const Anodized_Navy = 28;
+	const CaliCamo = 240;
+	const Terrain = 285;
+	const Army_Sheen = 298;
+	const Bratatat = 317;
+	const DesertStrike_N = 355;
+	const Nuclear_Waste = 369;
+	const Man_O_War_N = 432;
+	const Loudmouth = 483;
+	const Power_Loader = 514;
+	const Dazzle = 610;
+}

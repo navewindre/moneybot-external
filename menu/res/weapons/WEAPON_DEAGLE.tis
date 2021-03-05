@@ -1,0 +1,25 @@
+namespace WEAPON_DEAGLE {
+	const Urban_DDPAT = 17;
+	const Blaze = 37;
+	const Night = 40;
+	const Hypnotic = 61;
+	const Mudder = 90;
+	const Golden_Koi = 185;
+	const Cobalt_Disruption = 231;
+	const Crimson_Web = 232;
+	const Urban_Rubble = 237;
+	const Heirloom = 273;
+	const Meteorite = 296;
+	const Hand_Cannon = 328;
+	const Pilot = 347;
+	const Conspiracy = 351;
+	const Naga = 397;
+	const Bronze_Deco = 425;
+	const Midnight_Storm = 468;
+	const Sunset_Storm_1 = 469;
+	const Sunset_Storm_2 = 470;
+	const Corinthian = 509;
+	const Kumicho_Dragon = 527;
+	const Directive = 603;
+	const Oxide_Blaze = 645;
+}

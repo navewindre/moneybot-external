@@ -1,0 +1,24 @@
+namespace WEAPON_FAMAS {
+	const Contrast_Spray = 22;
+	const Colony = 47;
+	const Cyanospatter = 92;
+	const Sage_Spray = 119;
+	const Jungle_Spray = 122;
+	const Sand_Spray = 124;
+	const Afterimage = 154;
+	const Doomkitty = 178;
+	const Wave_Spray = 186;
+	const Spitfire = 194;
+	const Hexane = 218;
+	const Teardown = 244;
+	const Pulse = 260;
+	const Sergeant = 288;
+	const Styx = 371;
+	const Djinn = 429;
+	const Neural_Net = 477;
+	const Survivor_Z = 492;
+	const Valence = 529;
+	const Roll_Cage = 604;
+	const Mecha_Industries = 626;
+	const Macabre = 659;
+}

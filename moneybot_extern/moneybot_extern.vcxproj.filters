@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="entity.cpp">
+      <Filter>csgo</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>csgo</Filter>
+    </ClCompile>
+    <ClCompile Include="aim.cpp">
+      <Filter>base_cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="extra.cpp">
+      <Filter>base_cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets.cpp">
+      <Filter>csgo</Filter>
+    </ClCompile>
+    <ClCompile Include="factory.cpp">
+      <Filter>factory</Filter>
+    </ClCompile>
+    <ClCompile Include="module.cpp">
+      <Filter>factory</Filter>
+    </ClCompile>
+    <ClCompile Include="process.cpp">
+      <Filter>factory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>factory</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>factory</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="weapon.cpp">
+      <Filter>csgo</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>csgo</Filter>
+    </ClCompile>
+    <ClCompile Include="visual.cpp">
+      <Filter>base_cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="bsp_map.cpp">
+      <Filter>csgo\map</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="phy.cpp">
+      <Filter>csgo\map</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing.cpp">
+      <Filter>csgo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="client.h" />
+    <ClInclude Include="entity.h">
+      <Filter>csgo</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>csgo</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>csgo</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>csgo</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat.h">
+      <Filter>base_cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="aim.h">
+      <Filter>base_cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="visual.h">
+      <Filter>base_cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="extra.h">
+      <Filter>base_cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>csgo</Filter>
+    </ClInclude>
+    <ClInclude Include="factory.h">
+      <Filter>factory</Filter>
+    </ClInclude>
+    <ClInclude Include="syscall.h">
+      <Filter>NT</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="shellcode.h">
+      <Filter>factory</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>base_cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="chl_client.h">
+      <Filter>csgo</Filter>
+    </ClInclude>
+    <ClInclude Include="Valve\dt_common.h">
+      <Filter>csgo\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="Valve\dt_recv.h">
+      <Filter>csgo\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="backtracking.h">
+      <Filter>base_cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing.h">
+      <Filter>csgo</Filter>
+    </ClInclude>
+    <ClInclude Include="cx_strenc.h">
+      <Filter>strenc</Filter>
+    </ClInclude>
+    <ClInclude Include="nt.h">
+      <Filter>NT</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.h">
+      <Filter>csgo</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>csgo</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>csgo</Filter>
+    </ClInclude>
+    <ClInclude Include="cvar.h">
+      <Filter>csgo</Filter>
+    </ClInclude>
+    <ClInclude Include="skins.h">
+      <Filter>csgo</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp_file.h">
+      <Filter>csgo\map</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp_map.h">
+      <Filter>csgo\map</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="phy.h">
+      <Filter>csgo\map</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo.h">
+      <Filter>factory</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.h">
+      <Filter>auth</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="csgo">
+      <UniqueIdentifier>{2cf740ac-a695-4e3b-802f-6886dd1cd6a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base_cheat">
+      <UniqueIdentifier>{226acb96-4436-42a5-b1cb-93d3037fea49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="factory">
+      <UniqueIdentifier>{a820f8fb-dfd2-4b21-9ae2-955f062078f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NT">
+      <UniqueIdentifier>{c2653021-4819-40be-8a12-8a9e9a8c2ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{174b0d18-6d9e-4ddb-8969-86217c4b5bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csgo\valve">
+      <UniqueIdentifier>{3bfd331a-bb7d-4983-913c-2ff2d8d03c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="strenc">
+      <UniqueIdentifier>{9bcfb15e-6c56-46b2-b3c9-4f98b7a4fffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csgo\map">
+      <UniqueIdentifier>{399f83d8-c8cf-4698-ac52-431951f2f090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="auth">
+      <UniqueIdentifier>{1c3351f9-d43f-4974-9092-9c1c52b0d5a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

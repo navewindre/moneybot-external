@@ -1,0 +1,28 @@
+namespace WEAPON_M4A1S {
+	const Dark_Water = 60;
+	const Boreal_Forest = 77;
+	const Bright_Water = 189;
+	const Blood_Tiger = 217;
+	const VariCamo = 235;
+	const Night_Ops = 236;
+	const Urban_Rubble = 237;
+	const VariCamo_Blue = 238;
+	const CaliCamo = 240;
+	const Full_Stop = 250;
+	const Nitro = 254;
+	const Guardian = 257;
+	const Atomic_Alloy = 301;
+	const Master_Piece = 321;
+	const Knight = 326;
+	const Cyrex = 360;
+	const Basilisk = 383;
+	const Hyper_Beast = 430;
+	const Icarus_Fell = 440;
+	const Hot_Rod = 445;
+	const Golden_Coil = 497;
+	const Chanticos_Fire = 548;
+	const Mecha_Industries = 587;
+	const Flashback = 631;
+	const Decimator = 644;
+	const Briefing = 663;
+}

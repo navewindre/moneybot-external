@@ -1,0 +1,27 @@
+namespace WEAPON_GALILAR {
+	const Winter_Forest = 76;
+	const Orange_DDPAT = 83;
+	const Sage_Spray = 119;
+	const Shattered = 192;
+	const Blue_Titanium = 216;
+	const VariCamo = 235;
+	const Night_Ops = 236;
+	const Urban_Rubble = 237;
+	const VariCamo_Blue = 238;
+	const CaliCamo = 240;
+	const Hunting_Blind = 241;
+	const Full_Stop = 250;
+	const Sandstorm = 264;
+	const Tuxedo = 297;
+	const Kami = 308;
+	const Cerberus = 379;
+	const Chatterbox = 398;
+	const Eco = 428;
+	const Aqua_Terrace = 460;
+	const Rocket_Pop = 478;
+	const Stone_Cold = 494;
+	const Firefight = 546;
+	const Black_Sand = 629;
+	const Crimson_Tsunami = 647;
+	const Sugar_Rush = 661;
+}

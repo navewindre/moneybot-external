@@ -1,0 +1,17 @@
+namespace WEAPON_M249 {
+	const Contrast_Spray = 22;
+	const Blizzard_Marbleized = 75;
+	const Sage_Spray = 119;
+	const Jungle_Spray = 122;
+	const Sand_Spray = 124;
+	const Wave_Spray = 186;
+	const Jungle_DDPAT = 202;
+	const Gator_Mesh = 243;
+	const Magma = 266;
+	const System_Lock = 401;
+	const Shipping_Forecast = 452;
+	const Impact_Drill = 472;
+	const Nebula_Crusader = 496;
+	const Spectre = 547;
+	const Emerald_Poison_Dart = 648;
+}

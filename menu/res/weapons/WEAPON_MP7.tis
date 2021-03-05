@@ -1,0 +1,26 @@
+namespace WEAPON_MP7 {
+	const Forest_DDPAT = 5;
+	const Skulls = 11;
+	const Gunsmoke = 15;
+	const Urban_DDPAT = 17;
+	const Anodized_Navy = 28;
+	const Orange_DDPAT = 83;
+	const Pink_DDPAT = 84;
+	const Whiteout = 102;
+	const Orange_Peel = 141;
+	const Jungle_DDPAT = 202;
+	const Groundwater = 209;
+	const Ocean_Foam = 211;
+	const Full_Stop = 250;
+	const Urban_Hazard = 354;
+	const Olive_Plaid = 365;
+	const Armor_Core = 423;
+	const Asterion = 442;
+	const Pathfinder = 443;
+	const Daedalus = 444;
+	const Nemesis = 481;
+	const Special_Delivery = 500;
+	const Impire = 536;
+	const Cirrus = 627;
+	const Akoben = 649;
+}

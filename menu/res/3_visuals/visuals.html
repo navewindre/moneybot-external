@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <title>femboy hack</title>
+  
+  <link href='https://fonts.googleapis.com/css?family=Source Code Pro' rel='stylesheet'>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" type="text/css" href="../main.css">
+
+    <style>
+  body.shown 
+  {
+    transform:scale(1);
+  }
+    
+    
+</style>
+    <script type="text/tiscript">
+    event change $(form#visuals) {
+      view.onDataChange_visuals(this.value);
+    }
+    </script>
+	<script type="text/tiscript">
+      include "../timeline.tis";
+      function self.ready()
+      {
+      var visualsmap = view.getvisualsmap();
+      $(form#visuals).value = visualsmap;
+	  	  var titlemap = view.gettitlemap();
+	  $(form#title).value = titlemap;
+      
+      
+      var visvalue = view.sendviskey();
+      var selectbuttonarea = $(div.formmain);
+      
+      selectbuttonarea.$append(<button.vispicker><b style="padding: 0px 5px;">{visvalue}</b></button><br>)
+      
+      var glowvalue = view.sendglowkey();
+      selectbuttonarea.$append(<text>glow key:</text><br><button.glowpicker><b style="padding: 0px 5px;">{glowvalue}</b></button><br>)
+      
+      
+      //view.msgbox("test", "REPLACE LATER" );
+              Timeline.on(body)
+         .from( $$(#scene), { duration:0.3s, ease: #quadInOut },
+                              { opacity: 0.1 } )
+         .play();
+      
+      }
+    </script>
+    <script type="text/tiscript">
+    
+      function MySlider() {
+        var button = this.$(button);
+        this.paintContent = function(gfx)
+        {
+          var (x1,y1,x2,y2) = button.box(#rect,#border,#parent);
+          var (w,h) = this.box(#dimension,#inner);
+          gfx.fillColor( button.style["border-left-color"] )
+             .rectangle(0,0,(x1+x2)/2,h);
+        }
+      }
+    
+    </script>
+
+	    <script type="text/tiscript">
+        const body = $(body);
+    
+
+    $(#close).on("click",function()
+  {
+    
+    body.attributes.removeClass("shown");
+    view.close();
+  });
+    </script>
+    
+    <script type="text/tiscript">
+        const body = $(body);
+    
+
+    $(#save).on("click",function()
+  {
+    
+    view.saves();
+  });
+    </script>
+    <script type="text/tiscript">
+        const body = $(body);
+    
+
+    $(#load).on("click",function()
+  {
+    
+    view.loads();
+  });
+    </script>
+
+        <script type="text/tiscript">
+       self.on("click", "button.vispicker", function()
+       {
+       view.load( self.url("togglekey.html"));
+       }
+       );
+    </script>
+    
+            <script type="text/tiscript">
+       self.on("click", "button.glowpicker", function()
+       {
+       view.load( self.url("glowkey.html"));
+       }
+       );
+    </script>
+
+    
+    
+</head>
+<body>
+    <div class="side">
+
+        <center>
+            <h1 style="color:white">커피</h1>
+        </center><br>
+        <center>
+		<form#title>
+            <article style="color:white">morning pleasure</article>
+			<article(username) style="color:white">welcome back, user</article>
+		</form>
+        </center>
+        <hr class="dick">
+        <div class="sidenav">
+            <a href="../2_aim/aim.html">aim</a>
+            <a href="../3_visuals/visuals.html">visuals</a>
+            <a href="../4_misc/misc.html">misc</a>
+            <a href="../5_settings/settings.html">skinchanger</a>
+            <a #close>close</a>
+			<br><br><br><!--that will do!-->
+            <a class="bottom" #save>save</a>
+            <a class="bottom" #load>load</a>
+        </div>
+    </div>
+    <div class="fuckingdivthatwontwork"></div>
+<div class="main" role="window-caption" #scene>
+        <form#visuals> 
+        <div class="formmain">
+    <h1 class="formtitle">visuals</h1>
+    <hr class="formline"/>
+  <button|checkbox(esp_glow)><text>glow</text></button><br> 
+  <button|checkbox(esp_team)><text>show teammates</text></button><br> 
+  <button|checkbox(chams)><text>chams</text></button><br>
+  <button|checkbox(radar)><text>radar</text></button><br>
+  <text>toggle key:</text><br>
+    </div>
+	<br>
+</form>
+            </div>
+</body>
+</html>

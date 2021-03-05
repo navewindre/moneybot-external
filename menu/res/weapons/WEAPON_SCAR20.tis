@@ -1,0 +1,19 @@
+namespace WEAPON_SCAR20 {
+	const Contractor = 46;
+	const Carbon_Fiber = 70;
+	const Storm = 100;
+	const Sand_Mesh = 116;
+	const Splash_Jam = 165;
+	const Emerald = 196;
+	const Crimson_Web = 232;
+	const Tropical_Storm = 233;
+	const Army_Sheen = 298;
+	const Cyrex = 312;
+	const Cardiac = 391;
+	const Grotto = 406;
+	const Green_Marine = 502;
+	const Outbreak = 518;
+	const Bloodsport = 597;
+	const Powercore = 612;
+	const Blueprint = 642;
+}

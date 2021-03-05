@@ -1,0 +1,22 @@
+namespace WEAPON_CZ75AUTO {
+	const Crimson_Web = 12;
+	const Emerald = 196;
+	const Hexane = 218;
+	const Tread_Plate = 268;
+	const The_Fuschia_Is_Now = 269;
+	const Victoria = 270;
+	const Tuxedo = 297;
+	const Army_Sheen = 298;
+	const Poison_Dart = 315;
+	const Nitro = 322;
+	const Chalice = 325;
+	const Twist = 334;
+	const Tigris = 350;
+	const Green_Plaid = 366;
+	const Pole_Position = 435;
+	const Yellow_Jacket = 476;
+	const Red_Astor = 543;
+	const Imprint = 602;
+	const Polymer = 622;
+	const Xiangliu = 643;
+}

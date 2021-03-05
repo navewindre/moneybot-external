@@ -1,0 +1,23 @@
+namespace WEAPON_DUALBERETTAS {
+	const Anodized_Navy = 28;
+	const Stained = 43;
+	const Contractor = 46;
+	const Colony = 47;
+	const Demolition = 153;
+	const Black_Limba = 190;
+	const Anodized_Navy = 197;
+	const Hemoglobin = 220;
+	const Cobalt_Quartz = 249;
+	const Marina = 261;
+	const Panther = 276;
+	const Retribution = 307;
+	const Briar = 330;
+	const Urban_Shock = 396;
+	const Duelist = 447;
+	const Moon_in_Libra = 450;
+	const Dualing_Dragons = 491;
+	const Cartel = 528;
+	const Ventilators = 544;
+	const Royal_Consorts = 625;
+	const Cobra_Strike = 658;
+}

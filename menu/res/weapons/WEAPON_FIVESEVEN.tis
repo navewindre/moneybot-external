@@ -1,0 +1,29 @@
+namespace WEAPON_FIVESEVEN {
+	const Candy_Apple = 3;
+	const Case_Hardened = 44;
+	const Contractor = 46;
+	const Forest_Night = 78;
+	const Orange_Peel = 141;
+	const Jungle = 151;
+	const Jungle = 205;
+	const Anodized_Gunmetal = 210;
+	const Nightshade = 223;
+	const Silver_Quartz = 252;
+	const Nitro = 254;
+	const Kami = 265;
+	const Copper_Galaxy = 274;
+	const Nitro = 322;
+	const Fowl_Play = 352;
+	const Hot_Shot = 377;
+	const Urban_Hazard = 387;
+	const Monkey_Business = 427;
+	const Neon_Kimono = 464;
+	const Orange_Kimono = 465;
+	const Crimson_Kimono = 466;
+	const Retrobution = 510;
+	const Triumvirate = 530;
+	const Violent_Daimyo = 585;
+	const Scumbria = 605;
+	const Capillary = 646;
+	const Hyper_Beast = 660;
+}

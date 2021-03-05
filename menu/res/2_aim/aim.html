@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>big hack</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Source Code Pro' rel='stylesheet'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" type="text/css" href="../main.css">
+
+    <style>
+        body.shown {
+            transform: scale(1);
+        }
+
+    </style>
+    <script type="text/tiscript">
+    event change $(form#aim) {
+      view.onDataChange_aim(this.value);
+    }
+    </script>
+    <script type="text/tiscript">
+      include "../timeline.tis";
+      function self.ready()
+      {
+      
+      var aimmap = view.getaimmap();
+      $(form#aim).value = aimmap;
+	  var titlemap = view.gettitlemap();
+	  $(form#title).value = titlemap;
+      
+      
+      var aimkeyvalue = view.sendaimkey();
+      var selectbuttonarea = $(div.formsecond);
+      
+      selectbuttonarea.$append(<button.aimpicker><b style="padding: 0px 5px;">{aimkeyvalue}</b></button>)
+      
+      //view.msgbox("test", "REPLACE LATER" );
+        Timeline.on(body)
+         .from( $$(#scene), { duration:0.3s, ease: #quadInOut },
+                              { opacity: 0.1 } )
+         .play();
+      }
+    </script>
+    <script type="text/tiscript">
+    
+      function MySlider() {
+        var button = this.$(button);
+        this.paintContent = function(gfx)
+        {
+          var (x1,y1,x2,y2) = button.box(#rect,#border,#parent);
+          var (w,h) = this.box(#dimension,#inner);
+          gfx.fillColor( button.style["border-left-color"] )
+             .rectangle(0,0,(x1+x2)/2,h);
+        }
+      }
+    
+    </script>
+
+	    <script type="text/tiscript">
+        const body = $(body);
+    
+
+    $(#close).on("click",function()
+  {
+    
+    body.attributes.removeClass("shown");
+    view.close();
+  });
+    </script>
+    
+    <script type="text/tiscript">
+        const body = $(body);
+    
+
+    $(#save).on("click",function()
+  {
+    
+    view.saves();
+  });
+    </script>
+    <script type="text/tiscript">
+        const body = $(body);
+    
+
+    $(#load).on("click",function()
+  {
+    
+    view.loads();
+  });
+    </script>
+    
+    <script type="text/tiscript">
+       self.on("click", "button.aimpicker", function()
+       {
+       view.load( self.url("trigkey.html"));
+       }
+       );
+    </script>
+
+</head>
+
+<body >
+    <div class="side">
+
+        <center>
+            <h1 style="color:white">커피</h1>
+        </center><br>
+        <center>
+		<form#title>
+            <article style="color:white">morning pleasure</article>
+			<article(username) style="color:white">welcome back, user</article>
+		</form>
+        </center>
+        <hr class="dick">
+        <div class="sidenav">
+            <a href="../2_aim/aim.html">aim</a>
+            <a href="../3_visuals/visuals.html">visuals</a>
+            <a href="../4_misc/misc.html">misc</a>
+            <a href="../5_settings/settings.html">skinchanger</a>
+            <a #close>close</a>
+			<br><br><br><!--that will do!-->
+            <a class="bottom" #save>save</a>
+            <a class="bottom" #load>load</a>
+        </div>
+    </div>
+    <div class="fuckingdivthatwontwork"></div>
+    <div class="main" role="window-caption" #scene>
+        <form#aim>
+    <div class="formmain">
+    <h1 class="formtitle">main</h1>
+    <hr class="formline">
+
+            
+    <button|checkbox(filter_team)><text>filter teammates</text></button><br>  
+    <button|checkbox(aimbot)><text>aimbot</text></button><br>
+    <text>aimbot fov: <b id="aimbot_fov"></b></text> <input|hslider(aimbot_fov) step="0.1" min=0 max=45 value="2" buddy="aimbot_fov"></input><b id="aimbot_fov"></b><br>
+    <text>aimbot speed: <b id="aimbot_speed"></b></text> <input|hslider(aimbot_speed) step="0.1" min=0 max=50 value="1" buddy="aimbot_speed"></input><br>
+	<button|checkbox(dynamic_smooth)><text>dynamic smoothing</text></button><br>
+	<text style="padding-bottom: 3px;">data samples: <b id="smooth_samples"></b></text> <input|hslider(smooth_samples) min=2 max=32 value="24" buddy="smooth_samples"></input>
+	<text style="padding-bottom: 3px;">smooth multiplier: <b id="smooth_multiplier"></b></text> <input|hslider(smooth_multiplier) step="0.1" min=0 max=2 value="1" buddy="smooth_multiplier"></input>
+	</hr>
+    </div>
+    
+    <div class="formsecond">
+    <h1 class="formtitle">triggerbot</h1>
+	<hr class="formline">
+	
+    <button|checkbox(triggerbot)><text>enabled</text></button><br>        
+	<button|checkbox(magnet_trigger)><text>magnet</text></button><br>
+    <text>key:</text><br>
+    <!--<button.buttonpicker(trigkey) buddy="trigkey"><b id="trigkey">asd</b></button>-->
+	</hr>
+    </div>
+            
+    <!--    <div class="formthird">
+    <h1 class="formtitle">sniper</h1>
+    <hr class="formline"/>
+    </div>
+        <div class="formfourth">
+    <h1 class="formtitle">rifle</h1>
+    <hr class="formline"/>
+    </div>
+            
+        <div class="formfifth">
+    <h1 class="formtitle">pistol</h1>
+    <hr class="formline"/>
+    </div>
+        !-->
+        
+</form>
+</div>
+	
+
+</body>
+
+</html>

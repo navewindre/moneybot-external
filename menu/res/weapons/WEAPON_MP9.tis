@@ -1,0 +1,20 @@
+namespace WEAPON_MP9 {
+	const Hot_Rod = 33;
+	const Bulldozer = 39;
+	const Hypnotic = 61;
+	const Storm = 100;
+	const Orange_Peel = 141;
+	const Sand_Dashed = 148;
+	const Dry_Season = 199;
+	const Rose_Iron = 262;
+	const Dark_Age = 329;
+	const Green_Plaid = 366;
+	const Setting_Sun = 368;
+	const Dart = 386;
+	const Deadly_Poison = 403;
+	const Pandoras_Box = 448;
+	const Ruby_Poison_Dart = 482;
+	const Bioleak = 549;
+	const Airlock = 609;
+	const Sand_Scale = 630;
+}

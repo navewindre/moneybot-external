@@ -1,0 +1,538 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>big hack</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Source Code Pro' rel='stylesheet'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" type="text/css" href="../main.css">
+
+    <style>
+        body.shown {
+            transform: scale(1);
+        }
+
+    </style>
+    <script type="text/tiscript">
+    event change $(form#skinchanger) {
+      view.onDataChange_skinchanger(this.value);
+    }
+    </script>
+    
+
+    
+    <script type="text/tiscript">
+      include "../timeline.tis";
+      include "../weapons/WEAPON_AK47.tis"; //done
+      include "../weapons/WEAPON_AUG.tis";
+      include "../weapons/WEAPON_AWP.tis";
+      include "../weapons/WEAPON_BAYONET.tis";
+      include "../weapons/WEAPON_BOWIE.tis";
+      include "../weapons/WEAPON_BUTTERFLY.tis";
+      include "../weapons/WEAPON_CZ75AUTO.tis";
+      include "../weapons/WEAPON_DEAGLE.tis";
+      include "../weapons/WEAPON_DUALBARETTAS.tis";
+      include "../weapons/WEAPON_FALCHION.tis";
+      include "../weapons/WEAPON_FAMAS.tis";
+      include "../weapons/WEAPON_FIVESEVEN.tis";
+      include "../weapons/WEAPON_FLIP.tis";
+      include "../weapons/WEAPON_G3SG1.tis";
+      include "../weapons/WEAPON_GALILAR.tis";
+      include "../weapons/WEAPON_GLOCK18.tis";
+      include "../weapons/WEAPON_GUT.tis";
+      include "../weapons/WEAPON_HUNTSMAN.tis";
+      include "../weapons/WEAPON_KARAMBIT.tis";
+      include "../weapons/WEAPON_M4A1S.tis";
+      include "../weapons/WEAPON_M4A4.tis";
+      include "../weapons/WEAPON_M9BAYONET.tis";
+      include "../weapons/WEAPON_M249.tis";
+      include "../weapons/WEAPON_MAC10.tis";
+      include "../weapons/WEAPON_MAG7.tis";
+      include "../weapons/WEAPON_MP7.tis";
+      include "../weapons/WEAPON_MP9.tis";
+      include "../weapons/WEAPON_NEGEV.tis";
+      include "../weapons/WEAPON_NOVA.tis";
+      include "../weapons/WEAPON_P250.tis";
+      include "../weapons/WEAPON_P2000.tis";
+      include "../weapons/WEAPON_PPBIZON.tis";
+      include "../weapons/WEAPON_R8REVOLVER.tis";
+      include "../weapons/WEAPON_SAWEDOFF.tis";
+      include "../weapons/WEAPON_SCAR20.tis";
+      include "../weapons/WEAPON_SG553.tis";
+      include "../weapons/WEAPON_SHADOWDAGGERS.tis";
+      include "../weapons/WEAPON_SSG08.tis";
+      include "../weapons/WEAPON_TEC9.tis";
+      include "../weapons/WEAPON_UMP45.tis";
+      include "../weapons/WEAPON_USPS.tis";
+      include "../weapons/WEAPON_XM1014.tis";
+      include "../weapons/WEAPON_P90.tis";
+
+      function self.ready()
+      {
+
+      
+      var titlemap = view.gettitlemap();
+	  $(form#title).value = titlemap;
+      var skinchangermap = view.getskinchangermap();
+      $(form#skinchanger).value = skinchangermap;
+      
+      var ak = $(select.ak);
+      for(var (key,val) in WEAPON_AK47) {
+            ak.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+
+      var m4a1 = $(select.m4a1);
+      for(var (key,val) in WEAPON_M4A1S) {
+            m4a1.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var m4a4 = $(select.m4a4);
+      for(var (key,val) in WEAPON_M4A4) {
+            m4a4.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var ssg08 = $(select.ssg08);
+      for(var (key,val) in WEAPON_SSG08) {
+            ssg08.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var aug = $(select.aug);
+      for(var (key,val) in WEAPON_AUG) {
+            aug.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var famas = $(select.famas);
+      for(var (key,val) in WEAPON_FAMAS) {
+            famas.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var galil = $(select.galil);
+      for(var (key,val) in WEAPON_GALILAR) {
+            galil.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var sg553 = $(select.sg553);
+      for(var (key,val) in WEAPON_SG553) {
+            sg553.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var awp = $(select.awp);
+      for(var (key,val) in WEAPON_AWP) {
+            awp.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var scar20 = $(select.scar20);
+      for(var (key,val) in WEAPON_SCAR20) {
+            scar20.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var g3sg1 = $(select.g3sg1);
+      for(var (key,val) in WEAPON_G3SG1) {
+            g3sg1.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var glock = $(select.glock);
+      for(var (key,val) in WEAPON_GLOCK18) {
+            glock.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var usps = $(select.usps);
+      for(var (key,val) in WEAPON_USPS) {
+            usps.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var p2000 = $(select.p2000);
+      for(var (key,val) in WEAPON_P2000) {
+            p2000.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var dualbarettas = $(select.dualbarettas);
+      for(var (key,val) in WEAPON_DUALBARETTAS) {
+            dualbarettas.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var p250 = $(select.p250);
+      for(var (key,val) in WEAPON_P250) {
+            p250.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var fiveseven = $(select.fiveseven);
+      for(var (key,val) in WEAPON_FIVESEVEN) {
+            fiveseven.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var tec9 = $(select.tec9);
+      for(var (key,val) in WEAPON_TEC9) {
+            tec9.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var cz75 = $(select.cz75);
+      for(var (key,val) in WEAPON_CZ75AUTO) {
+            cz75.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var deagle = $(select.deagle);
+      for(var (key,val) in WEAPON_DEAGLE) {
+            deagle.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var r8 = $(select.r8);
+      for(var (key,val) in WEAPON_R8REVOLVER) {
+            r8.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var XM1014 = $(select.XM1014);
+      for(var (key,val) in WEAPON_XM1014) {
+            XM1014.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var Sawedoff = $(select.Sawedoff);
+      for(var (key,val) in WEAPON_SAWEDOFF) {
+            Sawedoff.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var NOVA = $(select.NOVA);
+      for(var (key,val) in WEAPON_NOVA) {
+            NOVA.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var MAG7 = $(select.MAG7);
+      for(var (key,val) in WEAPON_MAG7) {
+            MAG7.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var MAC10 = $(select.MAC10);
+      for(var (key,val) in WEAPON_MAC10) {
+            MAC10.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var MP7 = $(select.MP7);
+      for(var (key,val) in WEAPON_MP7) {
+            select.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var MP9 = $(select.MP9);
+      for(var (key,val) in WEAPON_MP7) {
+            select.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var P90 = $(select.P90);
+      for(var (key,val) in WEAPON_P90) {
+            P90.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var PPBIZON = $(select.PPBIZON);
+      for(var (key,val) in WEAPON_PPBIZON) {
+            PPBIZON.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var UMP45 = $(select.UMP45);
+      for(var (key,val) in WEAPON_UMP45) {
+            UMP45.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var M249 = $(select.M249);
+      for(var (key,val) in WEAPON_M249) {
+            M249.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      var NEGEV = $(select.NEGEV);
+      for(var (key,val) in WEAPON_NEGEV) {
+            NEGEV.options.$append(<option value={val}>{key.toString()}</option>)
+
+      }
+      Timeline.on(body)
+         .from( $$(#scene), { duration:0.3s, ease: #quadInOut },
+                              { opacity: 0.1 } )
+         .play();
+      }
+    </script>
+    <script type="text/tiscript">
+    
+      function MySlider() {
+        var button = this.$(button);
+        this.paintContent = function(gfx)
+        {
+          var (x1,y1,x2,y2) = button.box(#rect,#border,#parent);
+          var (w,h) = this.box(#dimension,#inner);
+          gfx.fillColor( button.style["border-left-color"] )
+             .rectangle(0,0,(x1+x2)/2,h);
+        }
+      }
+    
+    </script>
+
+    <script type="text/tiscript">
+        const body = $(body);
+    
+
+    $(#close).on("click",function()
+  {
+    
+    body.attributes.removeClass("shown");
+    view.close();
+  });
+    </script>
+    
+    <script type="text/tiscript">
+        const body = $(body);
+    
+
+    $(#save).on("click",function()
+  {
+    
+    view.saves();
+  });
+    </script>
+    <script type="text/tiscript">
+        const body = $(body);
+    
+
+    $(#load).on("click",function()
+  {
+    
+    view.loads();
+  });
+    </script>
+</head>
+
+<body >
+    <div class="side">
+
+        <center>
+            <h1 style="color:white">커피</h1>
+        </center><br>
+        <center>
+		<form#title>
+            <article style="color:white">morning pleasure</article>
+			<article(username) style="color:white">welcome back, user</article>
+		</form>
+        </center>
+        <hr class="dick">
+        <div class="sidenav">
+            <a href="../2_aim/aim.html">aim</a>
+            <a href="../3_visuals/visuals.html">visuals</a>
+            <a href="../4_misc/misc.html">misc</a>
+            <a href="../5_settings/settings.html">skinchanger</a>
+            <a #close>close</a>
+			<br><br><br><!--that will do!-->
+            <a class="bottom" #save>save</a>
+            <a class="bottom" #load>load</a>
+        </div>
+    </div>
+    <div class="fuckingdivthatwontwork"></div>
+    <div class="main" role="window-caption" #scene>
+        <form#skinchanger>
+            <!--               <div class="select-style">
+<text>ak:</text>
+<select|dropdown class="ak">  
+<option value=0 selected>Nothing</option>
+</select>
+
+    </div>
+<br>-->
+            <div class="formmain">
+                <h1 class="formtitle">rifles</h1>
+
+                <hr class="formline" />
+                <div class="select-style">
+                    <text>ak:</text>
+                    <select|dropdown class="ak">
+                    <option value=0 selected>Nothing</option>
+                    </select>
+                    <text>m4a1-s:</text>
+                    <select|dropdown class="m4a1">
+                    <option value=0 selected>Nothing</option>
+                    </select>
+                    <text>m4a4:</text>
+                    <select|dropdown class="m4a4">
+                    <option value=0 selected>Nothing</option>
+                    </select>
+                    <text>ssg08:</text>
+                    <select|dropdown class="ssg08">
+                    <option value=0 selected>Nothing</option>
+                    </select>
+                    <text>aug:</text>
+                    <select|dropdown class="aug">
+                    <option value=0 selected>Nothing</option>
+                    </select>
+                    <text>famas:</text>
+                    <select|dropdown class="famas">
+                    <option value=0 selected>Nothing</option>
+                    </select>
+                    <text>galil:</text>
+                    <select|dropdown class="galil">
+                    <option value=0 selected>Nothing</option>
+                    </select>
+                    <text>sg553:</text>
+                    <select|dropdown class="sg553">
+                    <option value=0 selected>Nothing</option>
+                    </select>
+                    <text>awp:</text>
+                    <select|dropdown class="awp">
+                    <option value=0 selected>Nothing</option>
+                    </select>
+                    <text>scar20:</text>
+                    <select|dropdown class="scar20">
+                    <option value=0 selected>Nothing</option>
+                    </select>
+                    <text>g3sg1:</text>
+                    <select|dropdown class="g3sg1">
+                    <option value=0 selected>Nothing</option>
+                    </select>
+
+                </div>
+            </div>
+
+            <div class="formsecond2">
+                <h1 class="formtitle">pistols</h1>
+                <hr class="formline" />
+                <div class="select-style">
+                <text>glock:</text>
+                <select|dropdown class="glock">
+                <option value=0 selected>Nothing</option>
+                </select>
+                <text>usps:</text>
+                <select|dropdown class="usps">
+                <option value=0 selected>Nothing</option>
+                </select>
+                <text>p2000:</text>
+                <select|dropdown class="p2000">
+                <option value=0 selected>Nothing</option>
+                </select>
+                <text>dualbarettas:</text>
+                <select|dropdown class="dualbarettas">
+                <option value=0 selected>Nothing</option>
+                </select>
+                <text>p250:</text>
+                <select|dropdown class="p250">
+                <option value=0 selected>Nothing</option>
+                </select>
+                <text>fiveseven:</text>
+                <select|dropdown class="fiveseven">
+                <option value=0 selected>Nothing</option>
+                </select>
+                <text>tec9:</text>
+                <select|dropdown class="tec9">
+                <option value=0 selected>Nothing</option>
+                </select>
+                <text>cz75:</text>
+                <select|dropdown class="cz75">
+                <option value=0 selected>Nothing</option>
+                </select>
+                <text>deagle:</text>
+                <select|dropdown class="deagle">
+                <option value=0 selected>Nothing</option>
+                </select>
+                <text>r8:</text>
+                <select|dropdown class="r8">
+                <option value=0 selected>Nothing</option>
+                </select>
+                </div>
+
+            </div>
+            
+                <div class="formthird2">
+                    <h1 class="formtitle">shotguns</h1>
+                    <hr class="formline" />
+                    <div class="select-style">
+                    <text>XM1014:</text>
+                    <select|dropdown class="XM1014">
+                    <option value=0 selected>Nothing</option>
+                    </select>
+                    <text>Sawedoff:</text>
+                    <select|dropdown class="Sawedoff">
+                    <option value=0 selected>Nothing</option>
+                    </select>                    
+                    <text>NOVA:</text>
+                    <select|dropdown class="NOVA">
+                    <option value=0 selected>Nothing</option>
+                    </select>                    
+                    <text>MAG7:</text>
+                    <select|dropdown class="MAG7">
+                    <option value=0 selected>Nothing</option>
+                    </select>                    
+
+                    </div>
+                </div>
+
+
+                <div class="formfourth2">
+                    <h1 class="formtitle">smgs</h1>
+                    <hr class="formline" />
+                    <div class="select-style">
+                    <text>MAC10:</text>
+                    <select|dropdown class="MAC10">
+                    <option value=0 selected>Nothing</option>
+                    </select>  
+                    <text>P90:</text>
+                    <select|dropdown class="P90">
+                    <option value=0 selected>Nothing</option>
+                    </select>  
+                    <text>PPBIZON:</text>
+                    <select|dropdown class="PPBIZON">
+                    <option value=0 selected>Nothing</option>
+                    </select>  
+                    <text>UMP45:</text>
+                    <select|dropdown class="UMP45">
+                    <option value=0 selected>Nothing</option>
+                    </select>  
+                    <text>MP7:</text>
+                    <select|dropdown class="MP7">
+                    <option value=0 selected>Nothing</option>
+                    </select>  
+                    <text>MP9:</text>
+                    <select|dropdown class="MP9">
+                    <option value=0 selected>Nothing</option>
+                    </select>  
+                    </div>
+                </div>
+
+
+                <div class="formfifth2">
+                    <h1 class="formtitle">heavys</h1>
+                    <hr class="formline" />
+                    <div class="select-style">
+                    <text>M249:</text>
+                    <select|dropdown class="M249">
+                    <option value=0 selected>Nothing</option>
+                    </select>  
+                    <text>NEGEV:</text>
+                    <select|dropdown class="NEGEV">
+                    <option value=0 selected>Nothing</option>
+                    </select>  
+                    </div>
+                </div>
+
+                <div class="formsixth2">
+                    <h1 class="formtitle">knives</h1>
+                    <hr class="formline" />
+                    <div class="select-style">
+                    <text>knife:</text>
+                    <select|dropdown class="knife">
+                    <option value=0 selected>Nothing</option>
+                    <option value=TODO>Bayonet</option>
+                    <option value=TODO>Flip</option>
+                    <option value=TODO>Gut</option>
+                    <option value=TODO>Karambit</option>
+                    <option value=TODO>M9</option>
+                    <option value=TODO>Huntsman</option>
+                    <option value=TODO>Falchion</option>
+                    <option value=TODO>Bowie</option>
+                    <option value=TODO>Butterfly</option>
+                    <option value=TODO>Shadowdaggers</option>
+
+                    </select>
+                    </div>
+                </div>
+            </form>
+
+
+
+</body>
+
+</html>

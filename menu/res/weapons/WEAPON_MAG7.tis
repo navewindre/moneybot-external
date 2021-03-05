@@ -1,0 +1,20 @@
+namespace WEAPON_MAG7 {
+	const Silver = 32;
+	const Metallic_DDPAT = 34;
+	const Bulldozer = 39;
+	const Sand_Dune = 99;
+	const Storm = 100;
+	const Irradiated_Alert = 171;
+	const Memento = 177;
+	const Hazard = 198;
+	const Heaven_Guard = 291;
+	const Firestarter = 385;
+	const Heat = 431;
+	const Counter_Terrace = 462;
+	const Seabird = 473;
+	const Cobalt_Core = 499;
+	const Praetorian = 535;
+	const Petroglyph = 608;
+	const Sonar = 633;
+	const Hard_Water = 666;
+}

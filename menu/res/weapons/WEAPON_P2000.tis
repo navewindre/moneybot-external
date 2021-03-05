@@ -1,0 +1,23 @@
+namespace WEAPON_P2000 {
+	const Granite_Marbleized = 21;
+	const Silver = 32;
+	const Scorpion = 71;
+	const Grassland = 95;
+	const Grassland_Leaves = 104;
+	const Corticera = 184;
+	const Ocean_Foam = 211;
+	const Amber_Fade = 246;
+	const Red_FragCam = 275;
+	const Chainmail = 327;
+	const Pulse = 338;
+	const Coach_Class = 346;
+	const Ivory = 357;
+	const Fire_Elemental = 389;
+	const Pathfinder = 443;
+	const Handgun = 485;
+	const Imperial = 515;
+	const Oceanic = 550;
+	const Imperial_Dragon = 591;
+	const Turf = 635;
+	const Woodsman = 667;
+}

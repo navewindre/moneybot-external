@@ -1,0 +1,23 @@
+namespace WEAPON_USPS {
+	const Forest_Leaves = 25;
+	const Dark_Water = 60;
+	const Grassland_Leaves = 104;
+	const Overgrowth = 183;
+	const Blood_Tiger = 217;
+	const Serum = 221;
+	const Night_Ops = 236;
+	const Stainless = 277;
+	const Guardian = 290;
+	const Orion = 313;
+	const Road_Rash = 318;
+	const Royal_Blue = 332;
+	const Caiman = 339;
+	const Business_Class = 364;
+	const Para_Green = 454;
+	const Torque = 489;
+	const Kill_Confirmed = 504;
+	const Lead_Conduit = 540;
+	const Cyrex = 637;
+	const NeoNoir = 653;
+	const Blueprint = 657;
+}

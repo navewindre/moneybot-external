@@ -1,0 +1,27 @@
+namespace WEAPON_NOVA {
+	const Candy_Apple = 3;
+	const Forest_Leaves = 25;
+	const Bloomstick = 62;
+	const Sand_Dune = 99;
+	const Grassland_Leaves = 104;
+	const Polar_Mesh = 107;
+	const Walnut = 158;
+	const Modern_Hunter = 164;
+	const Blaze_Orange = 166;
+	const Predator = 170;
+	const Faded_Zebra = 176;
+	const Tempest = 191;
+	const Graphite = 212;
+	const Ghost_Camo = 225;
+	const Azure_Zebra = 229;
+	const Rising_Skull = 263;
+	const Antique = 286;
+	const Green_Apple = 294;
+	const Caged_Steel = 299;
+	const Koi = 356;
+	const Moon_in_Libra = 450;
+	const Ranger = 484;
+	const Hyper_Beast = 537;
+	const Exo = 590;
+	const Gila = 634;
+}

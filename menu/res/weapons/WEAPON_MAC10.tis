@@ -1,0 +1,25 @@
+namespace WEAPON_MAC10 {
+	const Candy_Apple = 3;
+	const Urban_DDPAT = 17;
+	const Silver = 32;
+	const Fade = 38;
+	const Ultraviolet = 98;
+	const Tornado = 101;
+	const Graven = 188;
+	const Tropical_Storm = 233;
+	const Amber_Fade = 246;
+	const Acid_Fade = 253;
+	const Heat = 284;
+	const Curse = 310;
+	const Indigo = 333;
+	const Tatter = 337;
+	const Commuter = 343;
+	const Nuclear_Garden = 372;
+	const Malachite = 402;
+	const Neon_Rider = 433;
+	const Rangeen = 498;
+	const Lapis_Gator = 534;
+	const Carnivore = 589;
+	const Last_Dive = 651;
+	const Aloha = 665;
+}

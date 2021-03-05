@@ -1,0 +1,27 @@
+namespace WEAPON_M4A4 {
+	const Desert_Storm_M = 8;
+	const Jungle_Tiger = 16;
+	const Urban_DDPAT = 17;
+	const Tornado = 101;
+	const Bullet_Rain = 155;
+	const Modern_Hunter = 164;
+	const Radiation_Hazard = 167;
+	const Faded_Zebra = 176;
+	const Zirka = 187;
+	const Tornado = 206;
+	const XRay = 215;
+	const Asiimov = 255;
+	const Howl = 309;
+	const DesertStrike_M = 336;
+	const Radiation_Hazard = 375;
+	const Griffin = 384;
+	const Dragon_King_M = 400;
+	const Poseidon = 449;
+	const Daybreak = 471;
+	const Evil_Daimyo = 480;
+	const Royal_Paladin = 512;
+	const The_Battlestar = 533;
+	const Desolate_Space = 588;
+	const Buzz_Kill = 632;
+	const Hellfire = 664;
+}

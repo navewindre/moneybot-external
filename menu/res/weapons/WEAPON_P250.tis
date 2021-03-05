@@ -1,0 +1,37 @@
+namespace WEAPON_P250 {
+	const Gunsmoke = 15;
+	const Bone_Mask = 27;
+	const Metallic_DDPAT = 34;
+	const Boreal_Forest = 77;
+	const Sand_Dune = 99;
+	const Whiteout = 102;
+	const Urban_Perforated = 135;
+	const Waves_Perforated = 136;
+	const Orange_Peel = 141;
+	const Urban_Masked = 143;
+	const Jungle_Dashed = 147;
+	const Sand_Dashed = 148;
+	const Urban_Dashed = 149;
+	const Splash = 162;
+	const Modern_Hunter = 164;
+	const Nuclear_Threat = 168;
+	const Dry_Season = 199;
+	const Facets = 207;
+	const Hive = 219;
+	const Steel_Disruption = 230;
+	const Mehndi = 258;
+	const Undertow = 271;
+	const Franklin = 295;
+	const Supernova = 358;
+	const Contamination = 373;
+	const Cartel = 388;
+	const Muertos = 404;
+	const Valence = 426;
+	const Crimson_Kimono = 466;
+	const Mint_Kimono = 467;
+	const Wingshot = 501;
+	const Asiimov = 551;
+	const Iron_Clad = 592;
+	const Ripple = 650;
+	const Red_Rock = 668;
+}

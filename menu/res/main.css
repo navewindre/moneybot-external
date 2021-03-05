@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
+
+svg {
+    background: white;
+    align-self: center;
+    display: block;
+    margin: auto;
+}
+
+text {
+    fill: white;
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+
+
+
+
+html {
+    
+    background: #cae7f9;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 1000px;
+}
+
+article {
+    font-family: Trebuchet MS;
+}
+
+h1 {
+    font-family: Trebuchet MS;
+    
+}
+
+h6{
+    text-align: center;
+    fill: white;
+    font-family: Trebuchet MS;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    
+}
+
+h5{
+    text-align: center;
+    fill: white;
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    
+}
+
+
+.formmain {
+    background: #8f8f8f;
+    overflow: hidden;
+    position: absolute;
+    left: 28px;
+    top: 30px;
+    padding: 4px 15px 30px 15px;
+}
+
+.formsecond{
+    background: #8f8f8f;
+    overflow: hidden;
+    position: absolute;
+    left: 305px;
+    top: 30px;
+    padding: 4px 15px 30px 15px;
+}
+.formsecond2{
+    background: #8f8f8f;
+    overflow: hidden;
+    position: absolute;
+    left: 190px;
+    top: 30px;
+    padding: 4px 15px 30px 15px;
+}
+
+.formthird2{
+    background: #8f8f8f;
+    overflow: hidden;
+    position: absolute;
+    left: 352px;
+    top: 30px;
+    padding: 4px 15px 30px 15px; 
+    
+}
+
+.formfourth2{
+    background: #8f8f8f;
+    overflow: hidden;
+    position: absolute;
+    left: 514px;
+    top: 30px;
+    padding: 4px 15px 30px 15px;  
+    
+}
+
+.formfifth2{
+    
+    background: #8f8f8f;
+    overflow: hidden;
+    position: absolute;
+    left: 676px;
+    top: 30px;
+    padding: 4px 15px 30px 15px;   
+}
+
+.formsixth2{
+    
+    background: #8f8f8f;
+    overflow: hidden;
+    position: absolute;
+    left: 838px;
+    top: 30px;
+    padding: 4px 15px 30px 15px;   
+}
+
+
+.formthird{
+    background: #8f8f8f;
+    overflow: hidden;
+    position: absolute;
+    left: 28px;
+    top: 310px;
+    padding: 4px 15px 30px 15px; 
+    
+}
+
+.formfourth{
+    background: #8f8f8f;
+    overflow: hidden;
+    position: absolute;
+    left: 305px;
+    top: 310px;
+    padding: 4px 15px 30px 15px;  
+    
+}
+
+.formfifth{
+    
+    background: #8f8f8f;
+    overflow: hidden;
+    position: absolute;
+    left: 582px;
+    top: 310px;
+    padding: 4px 15px 30px 15px;   
+}
+
+.formtitle {
+    fill: white;
+    font-family: Trebuchet MS;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.formline {
+    display: block;
+    height: 0px;
+    width: 30000%;
+    border: 0;
+    border-top: 6px solid #cae7f9;
+    margin: 1em 0;
+    position: absolute;
+    top: 25px;
+    left: -30px;
+}
+
+.dick {
+    /*lmfao*/
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 6px solid #cae7f9;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.color1 {
+    display: block;
+    height: px;
+    border: 0;
+    border-left: 5px solid red;
+    margin: 1em 0;
+    padding: 0;
+    position: absolute;
+    left: 178px;
+}
+
+.color2 {
+    overflow: hidden;
+    display: block;
+    height: 1000px;
+    border: 0px;
+    border-left: 6px solid #8f8f8f;
+    position: absolute;
+    left: 276px;
+}
+
+.fuckingdivthatwontwork {
+    overflow: hidden;
+    background-color: #8f8f8f;
+    position: absolute;
+    left: 276px;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+}
+
+.side {
+    font-family: Trebuchet MS;
+    overflow: hidden;
+    background-color: #8f8f8f;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 270px;
+}
+
+.bigspace{
+    padding-top: 315px;
+    
+}
+
+.sidenav {
+    
+    padding: 100px 0px 0px 0px;
+    overflow: hidden;
+    background-color: #8f8f8f;
+    position: absolute;
+    width: 100%;
+    height: 70%;
+}
+
+.sidenav a {
+    font-family: Trebuchet MS;
+    padding-top: center;
+    display: block;
+    color: rgba(255, 255, 255, .9);
+    text-align: center;
+    padding: 3px 16px;
+    left: 0;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #8f8f8f;
+}
+
+.sidenav a:hover {
+    background-color: #cccccc;
+    color: #8f8f8f;
+}
+
+.sidenav a.bottom {
+    
+}
+
+
+.main {
+    position: absolute;
+    left: 282px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+button[type=checkbox] {
+    color: #ffffff;
+    foreground-image: url(stock:block);
+    foreground-size: 12dip 12dip;
+    foreground-position: 2dip 50%;
+    foreground-repeat: no-repeat;
+    stroke: white;
+}
+
+button[type=checkbox]:checked {
+    foreground-image: url(stock:block);
+    foreground-size: 12dip 12dip;
+    foreground-position: 2dip 50%;
+    foreground-repeat: no-repeat;
+    stroke: #cae7f9;
+}
+
+
+/*START
+button[type="checkbox"] {
+    background-image: -webkit-linear-gradient(hsla(0,0%,0%,.1), hsla(0,0%,100%,.1)),
+                      -webkit-linear-gradient(left, #f66 50%, #6cf 50%);
+    background-size: 100% 100%, 200% 100%;
+    background-position: 0 0, 15px 0;
+    border-radius: 25px;
+    box-shadow: inset 0 1px 4px hsla(0,0%,0%,.5),
+                inset 0 0 10px hsla(0,0%,0%,.5),
+                0 0 0 1px hsla(0,0%,0%,.1),
+                0 -1px 2px 2px hsla(0,0%,0%,.25),
+                0 2px 2px 2px hsla(0,0%,100%,.75);
+    cursor: pointer;
+    height: 25px;
+    left: 50%;
+    margin: -12px -37px;
+    padding-right: 25px;
+    position: absolute;
+    top: 50%;
+    width: 75px;
+    -webkit-appearance: none;
+    -webkit-transition: .25s;
+}
+button[type="checkbox"]:after {
+    background-color: #eee;
+    background-image: -webkit-linear-gradient(hsla(0,0%,100%,.1), hsla(0,0%,0%,.1));
+    border-radius: 25px;
+    box-shadow: inset 0 1px 1px 1px hsla(0,0%,100%,1),
+                inset 0 -1px 1px 1px hsla(0,0%,0%,.25),
+                0 1px 3px 1px hsla(0,0%,0%,.5),
+                0 0 2px hsla(0,0%,0%,.25);
+    content: '';
+    display: block;
+    height: 25px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 50px;
+}
+button[type="checkbox"]:checked {
+    background-position: 0 0, 35px 0;
+    padding-left: 25px;
+    padding-right: 0;
+}
+END*/
+
+input[type=hslider] {
+    font-size: 14px;
+    aspect: MySlider;
+    height: 12dip;
+    width: 220dip;
+    background: white;
+    border-spacing: -1px;
+    padding: 2dip 2dip 2dip 2dip;
+    background: #cccccc;
+    color: white;
+}
+
+input[type=hslider]>button.slider {
+    font-size: 14px;
+    size: 0dip;
+    foreground: none;
+    background: #1d1d1e;
+    border: 0dip solid #cae7f9;
+    border-radius: 50%;
+    color: white;
+}
+
+b {
+    color: white;
+    font-size: 10px;
+}
+
+.select-style {
+    padding: 0;
+    margin: 0;
+    width: 100dip;
+    overflow: hidden;
+    background-color: #8f8f8f;
+    color: red;
+}
+
+.select-style select {
+    padding: 1px 0dip;
+    text-align: center;
+    width: 115%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #cae7f9;
+}
+
+.select-style option {
+    padding: 1px 30dip;
+    width: 100dip;
+    color: #cae7f9;
+}
+
+.select-style select:focus {
+    outline: none;
+    color: #cae7f9;
+}
+
+select>caption {
+    background-color: #8f8f8f;
+    color: #cae7f9;
+}
+
+option {
+    background-color: #8f8f8f;
+    color: #cae7f9;
+}
+
+input[type=text] {
+    font-size: 14px;
+    height: 14dip;
+    width: 110dip;
+    background: red;
+    border-spacing: -1px;
+    border: 2dip solid #cae7f9;
+    padding: 2dip 2dip 2dip 2dip;
+    background: #8f8f8f;
+    text-align: center;
+    color: #cae7f9;
+}
+/*
+
+    font-family: Trebuchet MS;
+    padding-top: float: center;
+    display: block;
+    color: rgba(255, 255, 255, .9);
+    text-align: center;
+    padding: 3px 16px;
+    left: 0;
+    text-decoration: none;
+    font-size: 17px;
+
+.sidenav a:hover {
+    background-color: #cccccc;
+    color: #8f8f8f;
+}
+
+.sidenav a.active {
+    background-color: #8f8f8f;
+    color: #8f8f8f;
+}
+
+*/
+
+.vispicker {
+  text-align: center;
+  width: 20%;
+  position:relative;
+  background: #8f8f8f;
+  border: 1px #cae7f9 solid;
+  padding:4px 25px;
+  top: 1px;
+}
+
+.vispicker:hover {
+}
+
+.vispicker:active {
+  top:1px;
+}
+
+
+
+.glowpicker {
+  text-align: center;
+  width: 20%;
+  position:relative;
+  background: #8f8f8f;
+  border: 1px #cae7f9 solid;
+  padding:4px 25px;
+  top: 1px;
+}
+
+.glowpicker:hover {
+}
+
+.glowpicker:active {
+  top:1px;
+}
+
+.aimpicker {
+  text-align: center;
+  width: 20%;
+  position:relative;
+  background: #8f8f8f;
+  border: 1px #cae7f9 solid;
+  padding: 4px 25px;
+  left: -4px;
+}
+
+.aimpicker:hover {
+}
+
+.aimpicker:active {
+  top:1px;
+}

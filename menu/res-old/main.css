@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+
+*{
+  box-sizing:border-box;
+}
+
+#screen{
+  background:#222;
+  box-shadow:0 0 5em #222;
+  margin-bottom:5px;
+  margin: 2% 40%;
+  position: relative;
+}  
+#show{
+  display:none;
+}
+section{
+  max-width:350px;
+  width:350px;
+  height:500px;
+  background:#222 url('http://www.deathmetal.org/wp-content/uploads/dark-money.jpg') no-repeat center;
+  background-size:cover;
+  position:relative;
+  transition:.4s;
+}
+section label{
+  text-transform:uppercase;
+  font-family: 'Aldrich', cursive;
+  color:#fff;
+  font-size:1em;
+  font-weight:bold;
+  background:none;
+  position:absolute;
+  top:10%;
+  left:35%;
+  padding:10px 20px;
+  cursor:pointer;
+  transition: transform(cubic-out, .2s);
+  border:1px solid #fff;
+}
+
+section label:hover{
+  background:#fff;
+  color:#222;
+}
+li{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+  color:#222;
+  font-weight:bolder;
+}
+
+.side_nav{
+  position:absolute;
+  background:#222;
+  font-family: 'Aldrich', cursive;
+  width:250px;
+  padding: 0px;
+  height: auto;
+  top:0;
+  bottom:0;
+  left:0;
+  padding-top: 75px;
+  overflow: hidden;
+}
+ .side_nav li{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  transition:.4s;
+}
+.side_nav li :hover{
+  background: #fff;
+  color: #222;
+}
+
+
+.side_nav li a{
+  display: block;
+  padding: 10px 0;
+  font-weight: 100;
+  color: #fff;
+}
+#show:checked ~ section{
+    transform: translate(250px,0);
+}
+
+
+

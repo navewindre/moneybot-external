@@ -1,0 +1,29 @@
+namespace WEAPON_AK47 {
+	const Red_Laminate = 14;
+	const Case_Hardened = 44;
+	const Safari_Mesh = 72;
+	const Jungle_Spray = 122;
+	const Predator = 170;
+	const Black_Laminate = 172;
+	const Faded_Zebra = 176;
+	const Fire_Serpent = 180;
+	const Blue_Laminate = 226;
+	const Azure_Zebra = 229;
+	const Redline = 282;
+	const Emerald_Pinstripe = 300;
+	const Vulcan = 302;
+	const Jaguar = 316;
+	const Jet_Set = 340;
+	const First_Class = 341;
+	const Wasteland_Rebel = 380;
+	const Cartel = 394;
+	const Elite_Build = 422;
+	const Hydroponic = 456;
+	const Aquamarine_Revenge = 474;
+	const Frontside_Misty = 490;
+	const Point_Disarray = 506;
+	const Fuel_Injector = 524;
+	const Neon_Revolution = 600;
+	const Bloodsport = 639;
+	const Orbit_Mk01 = 656;
+}

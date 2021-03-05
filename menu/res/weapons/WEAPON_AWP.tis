@@ -1,0 +1,24 @@
+namespace WEAPON_AWP {
+	const Snake_Camo = 30;
+	const Lightning_Strike = 51;
+	const Safari_Mesh = 72;
+	const Pink_DDPAT = 84;
+	const BOOM = 174;
+	const Corticera = 181;
+	const Graphite = 212;
+	const Electric_Hive = 227;
+	const Pit_Viper = 251;
+	const Redline = 259;
+	const Asiimov = 279;
+	const Red_Python = 320;
+	const Dragon_Lore = 344;
+	const Man_O_War = 395;
+	const Worm_God = 424;
+	const Medusa = 446;
+	const Sun_in_Leo = 451;
+	const Hyper_Beast = 475;
+	const Elite_Build = 525;
+	const Phobos = 584;
+	const Fever_Dream = 640;
+	const Oni_Taiji = 662;
+}

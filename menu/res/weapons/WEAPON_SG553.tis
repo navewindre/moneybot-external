@@ -1,0 +1,19 @@
+namespace WEAPON_SG553 {
+	const Anodized_Navy = 28;
+	const Bulldozer = 39;
+	const Ultraviolet = 98;
+	const Tornado = 101;
+	const Waves_Perforated = 136;
+	const Wave_Spray = 186;
+	const Gator_Mesh = 243;
+	const Damascus_Steel = 247;
+	const Pulse = 287;
+	const Army_Sheen = 298;
+	const Traveler = 363;
+	const Fallout_Warning = 378;
+	const Cyrex = 487;
+	const Tiger_Moth = 519;
+	const Atlas = 553;
+	const Aerial = 598;
+	const Triarch = 613;
+}

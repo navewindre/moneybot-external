@@ -1,0 +1,24 @@
+namespace WEAPON_PPBIZON {
+	const Blue_Streak = 13;
+	const Forest_Leaves = 25;
+	const Carbon_Fiber = 70;
+	const Grassland_Leaves = 104;
+	const Sand_Dashed = 148;
+	const Urban_Dashed = 149;
+	const Brass = 159;
+	const Modern_Hunter = 164;
+	const Irradiated_Alert = 171;
+	const Rust_Coat = 203;
+	const Water_Sigil = 224;
+	const Night_Ops = 236;
+	const Cobalt_Halftone = 267;
+	const Antique = 306;
+	const Osiris = 349;
+	const Chemical_Green = 376;
+	const Bamboo_Print = 457;
+	const Fuel_Rod = 508;
+	const Photic_Zone = 526;
+	const Judgement_of_Anubis = 542;
+	const Harvester = 594;
+	const Jungle_Slipstream = 641;
+}
